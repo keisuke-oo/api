@@ -30,6 +30,7 @@
       <main class="main">
       {{-- ページコンテンツの内容がここに入る --}}
          @yield('content')
+         @yield('top-research')
       </main>
       <footer>
          <p class="copyright">(c) 2020 訳アリ商品リサーチ！</P>
